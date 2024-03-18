@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <legend>Personal Details</legend>
+    <form action="/action_page.php">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+      </form>
+
+      
+
+        <form action="/action_page.php">
+            <p>Gender:
+            <input type="radio" id="male" name="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female" value="Female">
+            <label for="female">Female</label>
+            </p>
+          </form>
+          <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" value="abc@gmail.com"><br><br><br>
+            </form>
+          <form action="/action_page.php">
+            <label for="birthdaytime">Date of birth:</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+          </form>
+
+          <br>
+          
+         <form action="/action_page.php">
+            <p><label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="5" cols="90"></textarea></p>
+          </form>
+          <br>
+          <form action="/action_page.php">
+            
+            <input type="submit" value="Submit">
+          </form>
+      
+</body>
+</html>
